@@ -1,0 +1,108 @@
+footer{
+	font-family: 'Nanum Gothic', sans-serif;
+    color: #999;
+    font-weight: bold;
+    text-align: center;
+    background: white;
+    padding: 1em 0px ;
+}
+
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background: #F8F8F8;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 12pt;
+	font-weight: 400;
+	color: rgba(0,0,0,.8);
+	line-height: 1.5;
+}
+
+
+#logo h1 {
+	padding: 20px;
+	text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 2em;
+	color: #333030;
+}
+
+#logo a {
+    border: none;
+    background: none;
+    text-decoration: none;
+    color: #333030;
+}
+
+#menu {
+	margin: 0px;
+    background: #202020;
+}
+
+#menu ul {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px;
+    list-style: none;
+    line-height: normal;
+    text-align: center;
+}
+
+#menu li {
+	display: inline-block;
+}
+
+#menu a {
+	display: block;
+	padding: 0px 40px 0px 40px;
+	line-height: 70px;
+	letter-spacing: 2px;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 13px;
+	color: #8b8687;
+	border: none;
+}
+
+#menu a:hover {
+	text-decoration: none;
+	color: #e3dede;
+}
+
+.container {
+	max-width: 800px;
+	height: 70%;
+	margin: 40px auto;
+}
+
+.box-contain{
+	width: auto;
+	height: auto;
+	margin: 5px 5px;
+	padding: 10px;
+	text-align: justify;
+}
+
+
+#header-wrapper {
+    background:white;
+}
+
+#header {
+	padding: auto;
+	position: relative;
+	overflow: hidden;
+}
+
+table {
+    width: 100%;
+    border-top: 1px solid #444444;
+    border-collapse: collapse;
+  }
+  th, td {
+    border-bottom: 1px solid #444444;
+    padding: 10px;
+  }
