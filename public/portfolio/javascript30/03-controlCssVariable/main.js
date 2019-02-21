@@ -1,17 +1,11 @@
-const spacing = document.querySelector('#spacing');
-const blur = document.querySelector('#blur');
-const base = document.querySelector('#base');
-
 let root = document.querySelector(':root');
-var style = window.getComputedStyle(root);
 
+const inputValue = document.querySelectorAll('.controls input');
 
-spacing.addEventListener('change',function(e){
-    style.setProperty('--spacing', spacing.value);
+function changeValue(){
+    const suffix = this.dataset.sizing || ""; 
+    root.style.setProperty(`--${this.id}`, this.value+suffix);
 
-    // console.log(spacing.value);
-    
-});
-
-// blur.addEventListener('change',);
-// base.addEventListener('change',)
+}
+// inputValue.forEach(input => input.addEventListener('change',changeValue));
+inputValue.forEach(input => input.addEventListener('mousemove',changeValue));
